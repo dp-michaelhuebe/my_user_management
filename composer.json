@@ -34,5 +34,10 @@
         "composer/installers": "~1.0"
     },
 
+    "replace": {
+        "my_user_management": "self.version",
+        "typo3-ter/my-user-management": "self.version"
+    },
+
     "minimum-stability": "dev"
 }
